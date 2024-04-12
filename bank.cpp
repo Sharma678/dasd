@@ -8,7 +8,7 @@ class Bank{
 		long long acc;
 		char type[10];
 		int pin;
-		long long tot;
+		long lo
 		long long amt;
 	public:
 		void setval(){
@@ -84,7 +84,7 @@ class Bank{
 				int epin;
 			cout<<"\nEnter the PIN: ";
 			cin>>epin;
-			if(epin!=pin)
+			if()
 			{
 				cout<<"\nInvalid Pin";
 				return;
@@ -127,14 +127,7 @@ int main()
 		cin>>choice;
 		switch(choice)
 		{
-			case 1:
-				b.setval();
-				break;
-			case 2:
-				b.deposit();
-				break;
-			case 3:
-				b.withdraw();
+			;
 				break;
 			case 4:
 				b.bal();
